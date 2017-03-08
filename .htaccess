@@ -1,0 +1,6 @@
+#RewriteEngine on
+#RewriteRule ^admin/(.*)/(.*)/(.*).html$ index.php?role=admin&controller=$1&action=$3&id=$2 [L,QSA]
+#RewriteRule ^admin/(.*)/(.*).html$ index.php?role=admin&controller=$1&action=$2 [L]
+#RewriteRule ^(.*)/(.*).html$ index.php?controller=$1&action=$2
+
+# [L] : stand for if it match the first rule then stop rewriting

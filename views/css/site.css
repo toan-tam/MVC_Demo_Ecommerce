@@ -1,0 +1,130 @@
+nav{
+    background-color: rgba(49,159,211,.6);
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul, body{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    overflow: hidden;
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 17px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: rgba(74,168,212,.6);
+}
+
+.above-nav{
+    overflow: hidden;
+    height: 100px;
+    padding: 10px 0 0 20px;
+}
+
+.above-nav img{
+    float: left;
+    width: 20%;
+}
+
+.above-nav h1{
+    float: left;
+    padding-left: 100px;
+    padding-top: 15px;
+    box-sizing: border-box;
+    color: #1c4ea5;
+    font-size: 25px;
+}
+
+.above-nav .giohang{
+    display: block;
+    float: right;
+    font-size: 15px;
+}
+
+footer{
+    background-color: #212121;
+    height: 60px;
+    color: #999;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.box{
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.box:hover{
+    box-shadow: 3px 3px 3px 3px #E0FFFB
+
+}
+
+
+.box img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.box .price{
+    font-weight: bold;
+}
+
+.type_title{
+    background-color: #29CDB5;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    vertical-align: middle;
+}
+
+.detail_container{
+    padding: 10px 10px 30px 10px;
+}
+.product_image{
+    padding-top: 20px;
+}
+
+.detail_container .price{
+    font-weight: bold;
+    color: red;
+}
+
+.detail_container p{
+    text-indent: 5px;
+}
+
+main{
+    padding-top: 5px;
+}
+
+.total_cost{
+    color:red;
+    font-size: 20px;
+}
